@@ -28,18 +28,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  inset: 0;
+  z-index: 999;
+}
 
-  svg {
-    width: 40vw;
-    height: auto;
-  }
+#preloader svg {
+  width: 40vw;
+  max-width: 420px;
+  height: auto;
+}
 
-  path {
-    fill: #9016186e;
-    stroke:#901618;
-    stroke-dasharray:1150;
-    stroke-dashoffset: 1150;
-}}
+#preloader path {
+  fill: #9016186e;
+  stroke: #901618;
+  stroke-dasharray: 1150;
+  stroke-dashoffset: 1150;
+}
 
 button {
   font-family: "Poppins", sans-serif;
@@ -322,6 +326,11 @@ footer {
 }
 
 @media (max-width: 600px) {
+  #preloader svg {
+    width: 70vw;
+    max-width: none;
+  }
+
   section {
     padding: 4vw;
   }

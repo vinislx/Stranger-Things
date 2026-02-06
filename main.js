@@ -89,13 +89,13 @@ gruptextSplit.forEach((textUnicoSplit) => {
 }
 
 
-//animação surgindo - pre looder
+//animação surgindo - pre loder
 
 const tl = gsap.timeline ({
     onComplete(){
         animarPagina()
         gsap.to("#preloader", {
-            duration:.3,
+            duration:.2,
             opacity:0,
             display:"none",
         })
@@ -103,7 +103,7 @@ const tl = gsap.timeline ({
 })
 
 tl.to("#preloader path", {
-    duration:1.8,
+    duration:1.5,
     strokeDashoffset:0,
 })
 
