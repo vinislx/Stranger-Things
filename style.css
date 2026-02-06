@@ -335,6 +335,8 @@ footer {
     max-width: none;
   }
 
+
+}
   section {
     padding: 4vw;
   }
@@ -343,7 +345,7 @@ footer {
   }
 
   header h2 {
-    font-size: 28px;
+    font-size: 18px;
   }
   .hero {
     flex-direction: column;
