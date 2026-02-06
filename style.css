@@ -345,6 +345,7 @@ footer {
     flex-direction: column;
     padding: 26% 4vw 0;
 
+
     .esquerda,
     .direita {
       width: 100%;
@@ -367,6 +368,10 @@ footer {
         font-size: 5.5vw;
         text-align: start;
         margin-bottom: 16px;
+      }
+
+      button{
+        z-index: 100;
       }
     }
   }
